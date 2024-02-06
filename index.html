@@ -149,38 +149,33 @@
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Rushikesh Chavan</span></h1>
 
-						<!-- Element to contain animated typing -->
+						
 						<span id="typing-animation"></span>
 
 						<script>
 
-						// Initialize the typing animation
 						const typingAnimationElement = document.getElementById('typing-animation');
 
-						// Create an array of typing text
+					
 						const typingTexts = [
 						'Engineer  ',
 						'Programmer  ',
 						'Devloper  ',
 						];
 
-						// Create a function to display the typing animation for a given text
 						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
+						
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
 							}, i * 200); // Increase the delay to slow down the typing animation
 						}
-
-						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
 						}, text.length * 200);
 						}
 
-						// Start the typing animation loop
 						playTypingAnimation(typingTexts[0]);
 
 						</script>
@@ -206,6 +201,7 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
+					
 				<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
@@ -216,6 +212,7 @@
 										<img src="images/profile2.png" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
+									
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
@@ -415,53 +412,11 @@
           </div>
         </div>
 
-
-        <!-- <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-				 
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Digital Music Store Data Analysis using SQL</a></h3>
-                <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 			
-				
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Data Analysis using Python Project for Beginners</a></h3>
-                <p>Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-			
-				
-
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
-                <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br> -->
-
-		<!-- added justify-content-center to center align the last two projects -->
 		<div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/Project1.jpg');">
+				<a href="https://cine-ticket-forntend.vercel.app/" class="block-20 zoom-effect" style="background-image: url('images/Project1.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
@@ -479,7 +434,7 @@
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">FreshKart - </a></h3>
+				  <h3 class="heading"><a href="https://github.com/rushikeshchavan95/freshkart.github.io/tree/main/freshkart">FreshKart - </a></h3>
 				  <p> [ JavaScript | TailWind | React.js | SQL | Front-end libraries ]</p>
 				  <p>This is a online vegitable website created using with React.js and designed for buying Fresh fruits and vegetables or
 					seasonal.The platform also highlight the most popular veggies of the current season.</p>
@@ -598,7 +553,7 @@
 			<br>
 			<!-- <div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+					<h2>Have a<span> Question?  </span> <a href="https://forms" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
 				</div>
 			</div> -->
 				<br>
